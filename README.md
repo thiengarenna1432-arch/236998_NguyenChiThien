@@ -79,3 +79,12 @@ backend public, không có dấu `/` ở cuối.
 - Tên dịch vụ: `web-236998`
 - Biến môi trường: `BACKEND_URL` trỏ tới URL backend public, không có dấu `/`
   ở cuối.
+
+### Backend API đã triển khai
+
+- URL: https://api-236998.onrender.com
+- Image: `thien007/backend:latest`
+- Tên dịch vụ: `api-236998`
+- Health check: `/health`
+- API món ăn: `/api/foods`
+- Biến môi trường: `MONGODB_URI`, `CORS_ORIGIN`
