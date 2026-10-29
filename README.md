@@ -55,6 +55,21 @@ docker push thien007/backend:latest
 
 Image: https://hub.docker.com/r/thien007/backend
 
+### Chạy frontend bằng Docker
+
+```powershell
+docker build --platform linux/amd64 -t thien007/frontend:latest ./frontend
+docker run -d --name food-frontend -p 3000:80 -e BACKEND_URL=http://host.docker.internal:5000 thien007/frontend:latest
+docker push thien007/frontend:latest
+```
+
+Image: https://hub.docker.com/r/thien007/frontend
+
+`BACKEND_URL` là địa chỉ backend mà nginx dùng để chuyển tiếp các request
+`/api/`. Khi chạy local bằng Docker, giá trị mặc định là
+`http://host.docker.internal:5000`; khi triển khai, đặt biến này thành URL
+backend public, không có dấu `/` ở cuối.
+
 ## Triển khai
 
 (cập nhật sau)
