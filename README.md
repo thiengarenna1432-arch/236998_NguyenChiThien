@@ -40,6 +40,8 @@ npm run dev
 
 Khi phát triển, frontend gọi API bằng đường dẫn tương đối `/api/foods`. Có thể
 đổi địa chỉ backend bằng biến môi trường `BACKEND_URL` khi chạy frontend.
+Frontend dev server mặc định chạy tại `http://localhost:5173` và proxy các
+request `/api` tới `http://127.0.0.1:5000`.
 
 ## Docker
 
