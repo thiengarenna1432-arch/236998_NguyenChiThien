@@ -88,3 +88,14 @@ backend public, không có dấu `/` ở cuối.
 - Health check: `/health`
 - API món ăn: `/api/foods`
 - Biến môi trường: `MONGODB_URI`, `CORS_ORIGIN`
+
+## Thông tin nộp bài
+
+| Trường | Giá trị |
+|---|---|
+| Link_GitHub | https://github.com/thiengarenna1432-arch/236998_NguyenChiThien |
+| Link_Docker_Backend | https://hub.docker.com/r/thien007/backend |
+| Link_Docker_Frontend | https://hub.docker.com/r/thien007/frontend |
+| Link_Render_App | https://web-236998.onrender.com |
+| Link_Render_API | https://api-236998.onrender.com/api/foods |
+| Link_Data_MongoDB | Cluster `cluster0.th5lv97.mongodb.net`, database `236998_NguyenChiThien`, collection `foods` |
