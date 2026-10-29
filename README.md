@@ -45,7 +45,15 @@ request `/api` tới `http://127.0.0.1:5000`.
 
 ## Docker
 
-(cập nhật sau)
+### Chạy backend bằng Docker
+
+```powershell
+docker build --platform linux/amd64 -t thien007/backend:latest ./backend
+docker run -d --name food-backend -p 5000:5000 --env-file backend/.env thien007/backend:latest
+docker push thien007/backend:latest
+```
+
+Image: https://hub.docker.com/r/thien007/backend
 
 ## Triển khai
 
