@@ -1,5 +1,7 @@
 # Hệ thống quản lý món ăn
 
+**Sinh viên:** 236998-Nguyễn Chí Thiên
+
 Ứng dụng quản lý món ăn Việt Nam, gồm backend cung cấp API CRUD và frontend React
 hiển thị, tìm kiếm, thêm, sửa và xóa món ăn.
 
