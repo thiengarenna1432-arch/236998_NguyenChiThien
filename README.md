@@ -72,4 +72,10 @@ backend public, không có dấu `/` ở cuối.
 
 ## Triển khai
 
-(cập nhật sau)
+### Frontend đã triển khai
+
+- URL: https://web-236998.onrender.com
+- Image: `thien007/frontend:latest`
+- Tên dịch vụ: `web-236998`
+- Biến môi trường: `BACKEND_URL` trỏ tới URL backend public, không có dấu `/`
+  ở cuối.
